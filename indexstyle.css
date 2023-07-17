@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'NanumSquare';
+  font-size: 14px;
+  line-height: 23px;
+  color: #333;
+  min-width: 1320px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+#top a {
+  font-family: 'NanumSquareRound';
+  width: 100%;
+  background-color: #FF5688;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  padding: 5px 0;
+  font-size: 15px;
+}
+
+#top img {
+  vertical-align: bottom;
+}
+
+
+.menu {
+  width: 1320px;
+  margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu #gnb {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+input {
+  width: 220px;
+  background: url(./main_img/search.png) no-repeat 5% 50%;
+  border-radius: 50px;
+  border: 2px solid #C5C5C5;
+  padding: 10px 0 10px 30px;
+  box-sizing: border-box;
+  outline: none;
+  color: #FF5688;
+}
+
+.baner img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+
+.new {
+  text-align: center;
+  margin: 150px auto;
+}
+
+/* new 호버시*/
+.swiper-slide:hover .newbox {
+  opacity: 1;
+}
+
+.newbox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.newbox h5 {
+  color: #333;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.newbox p {
+  color: #FF5688;
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.newbox strong {
+  border: #FF5688 solid 1px;
+  border-radius: 50px;
+  background-color: #FF5688;
+  color: #fff;
+  font-size: 13px;
+
+  width: 60px;
+  margin: 0 auto;
+}
+
+
+h1 {
+  font-family: 'LotteriaChab';
+  font-size: 50px;
+  font-weight: 400;
+  color: #FF5688;
+  text-align: center;
+}
+
+h2 {
+  padding: 30px;
+}
+
+h3 {
+  font-family: 'Jalnan';
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+h5 {
+  line-height: 15px;
+  padding: 20px;
+}
+
+
+.more {
+  background-color: #FF5688;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 50px;
+  padding: 20px 50px;
+  display: inline-block;
+  border: 2px #FF5688 solid;
+}
+
+
+.more:hover {
+  background: none;
+  color: #FF5688;
+}
+
+.con1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.cin1i {
+  width: 50%;
+}
+
+.cin1i img {
+  width: 100%;
+  display: block;
+}
+
+.event1 img {
+  display: block;
+  width: 100%;
+}
+
+.con1f h2 {
+  color: #FF5688;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.con1f {
+  background-color: #c5c5c538;
+  width: 50%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sillyabout {
+  background-color: #FF5688;
+  border-radius: 50px;
+  border: 1px #FF5688 solid;
+  display: inline-block;
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'NanumSquare';
+  color: #fff;
+  margin: 20px auto;
+}
+
+.sillyabout:hover {
+  background: none;
+  border: 2px #FF5688 solid;
+  display: inline-block;
+  padding: 10px 50px;
+  color: #FF5688;
+
+}
+
+/* 룩북 */
+.lb {
+  background-color: #FFF1F5;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 150px 0;
+}
+
+
+
+/* 룩북 호버시 */
+
+.lb .lbi .swiper-slide {
+  position: relative;
+}
+
+.lb .lbi .lbbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lb .lbi .lbbox img {
+  opacity: 0;
+}
+
+.lb .lbi .swiper-slide:hover img {
+  opacity: 1;
+  transform: rotateY(180deg);
+}
+
+.lb .lbi .swiper-slide img {
+  transition: all 0.8s;
+}
+
+/* 룩북 호버시 끝 */
+
+/* 리뷰 */
+.review .h1rv {
+  padding-top: 150px;
+}
+
+.review {
+  width: 100%;
+  height: 100%;
+  background: url(./main_img/reviewbg.png) no-repeat center top;
+  margin: auto;
+  text-align: center;
+  background-size: cover;
+}
+
+.rv {
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rv_i {
+  margin: 0 30px 150px 30px;
+}
+
+.rv_i img {
+  margin: auto;
+  display: block;
+}
+
+.review_text {
+  background-color: #fff;
+  border: 1px #C5C5C5 solid;
+  width: 395px;
+  border-top: none;
+  margin: 0;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+
+
+.review_text .t1 {
+  font-size: 15px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.review_text .t2 {
+  font-size: 12px;
+  text-align: start;
+  padding: 10px 0;
+
+}
+
+.review_text .t3,
+.review_text .t4 {
+  font-size: 10px;
+}
+
+.name {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* 리뷰호버 */
+
+.review .rv .rv_i {
+  position: relative;
+}
+
+.review .rv .rv_i:hover .rbox {
+  opacity: 1;
+}
+
+.rbox {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}
+
+.rbox a {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+}
+
+
+/* 리뷰끝 */
+
+
+/* 이벤트 23 */
+.event {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.event img {
+  width: 100%;
+  display: block;
+}
+
+.event a {
+  flex: 1;
+}
+
+
+/* footer */
+
+footer {
+  background-color: #F0F1F2;
+  width: 100%;
+  margin: auto;
+  color: #737373;
+  padding: 40px 0;
+}
+
+footer .ff {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1320px;
+  justify-content: space-around;
+  padding: 40px 0 0 0;
+  margin: auto;
+
+}
+
+footer .ff .number_silly {
+  font-size: 36px;
+  padding: 15px 0;
+  font-weight: bolder;
+}
+
+footer .sns {
+  width: 1320px;
+  display: block;
+  margin: auto;
+  text-align: right;
+
+}
+
+footer .sns a {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+
+.sns a:hover .snsh {
+  opacity: 1;
+}
+
+.snsh {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.top {
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  display: none;
+  z-index: 99;
+}

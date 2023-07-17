@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  font-size: 16px;
+}
+
+.text {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.text::after {
+  content: '';
+  margin-left: 5px;
+  border-right: 2px solid  #FF5688;
+  animation: cursor .9s infinite steps(2);
+}
+
+@keyframes cursor {
+  0% { border-right: 2px solid  #ff568946; }
+  100% { border-right: 2px solid  #FF5688; }
+}

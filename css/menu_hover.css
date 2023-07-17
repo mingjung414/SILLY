@@ -1,0 +1,37 @@
+
+#gnb{width:1320px;
+	margin:auto;
+	text-transform:uppercase;
+	text-align:center;}	
+#gnb>li{float:left;
+		width:25%;}
+#gnb>li>a{display:inline-block;
+		font-size:20px;
+		padding:20px 0 0;
+		font-weight:bolder;
+		color: #333;
+		margin: 10px 0;}
+#gnb>li>a:hover{color:#FF5688;}
+.solid{width:100%;
+		margin:auto;
+		margin-top:10px;
+		height:3px;
+		background:#FF5688;
+		visibility:hidden;
+		opacity:0;
+		transform:scaleX(0);
+		transition-property:opacity, transform;
+		transition-duration:0.5s;}
+#gnb>li>a:hover .solid{transform:scaleX(1);
+						opacity:1;
+						visibility:visible;}		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'NanumSquare';
+    font-size: 14px;
+    line-height: 23px;
+    color: #333;
+    min-width: 1320px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#top a {
+    font-family: 'NanumSquareRound';
+    width: 100%;
+    background-color: #FF5688;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+#top img {
+    vertical-align: bottom;
+}
+
+
+.menu {
+    width: 1320px;
+    margin: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu #gnb {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.gnb li .sub1pink {
+    color: #FF5688;
+}
+
+input {
+    width: 220px;
+    background: url(./main_img/search.png) no-repeat 5% 50%;
+    border-radius: 50px;
+    border: 2px solid #C5C5C5;
+    padding: 10px 0 10px 30px;
+    box-sizing: border-box;
+    outline: none;
+    color: #FF5688;
+}
+
+.pinkbg {
+    background-color: #FFF3F7;
+}
+
+/*top s*/
+
+.t1 {
+    margin: auto;
+    padding: 150px 0 130px 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'LotteriaChab';
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #FF5688;
+    text-align: left;
+    position: relative;
+    width: 1320px;
+    margin: auto;
+}
+
+h1 span {
+    display: inline-block;
+    background-color: #FFF3F7;
+    padding-right: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+h1 b {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #FF5688;
+    position: absolute;
+    top: calc(50% - 1px);
+}
+
+.ABOUT {
+    background: url(./sub1_img/ABOUTb.png) no-repeat center top;
+    margin: auto;
+    height: 810px;
+    position: relative;
+}
+
+h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'NanumSquare';
+    padding-top: 379px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 42px;
+    color: #FF5688;
+    line-height: 66px;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 28px;
+    line-height: 46px;
+    padding-top: 50px;
+}
+
+
+/*top E*/
+
+/* story */
+
+.mark {
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #FF5688 50%);
+    background-size: 200%;
+    transition: 1s;
+}
+
+.STORY:hover .mark {
+    background-position: -100% 0;
+    color: #fff;
+}
+
+
+
+.STORY {
+
+
+    overflow: hidden;
+}
+
+.STORY .text {
+
+    color: #FF5688;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 53px;
+    padding-left: 20px;
+}
+
+
+
+hr {
+    border-top: solid 3px #FF5688;
+    vertical-align: bottom;
+}
+
+h5 {
+    font-size: 38px;
+    font-weight: 900;
+    color: #FF5688;
+    padding-top: 113px;
+    padding-bottom: 13px;
+    position: relative;
+}
+
+h6 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 53px;
+}
+
+.SILLYT {
+    background: url(./sub1_img/SILLYSTORY.png) repeat-y center 0;
+    padding-bottom: 50px;
+    margin-top: 30px;
+
+}
+
+.sal {
+    padding-top: 54px;
+    width: 1320px;
+    margin: auto;
+}
+
+
+
+
+p {
+    font-size: 24px;
+    line-height: 53px;
+    padding-top: 30px;
+}
+
+.storyp {
+    padding-top: 54px;
+
+}
+
+
+.pp {
+    color: #FF5688;
+    font-weight: 700;
+
+}
+
+
+
+/* story e */
+
+/* wm */
+
+.wm {
+    padding-top: 130px;
+    width: 1320px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.wmimg {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.color {
+    width: 1320px;
+    margin: auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.color .left span {
+    text-align: right;
+}
+
+.left {
+    text-align: right;
+}
+
+.left span {
+    padding-left: 20px;
+}
+
+
+
+.cimg {
+    width: 1080px;
+    height: 280px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.cimg .c1 {
+    background-color: #FC215F;
+    color: #fff;
+    left: 0;
+}
+
+.cimg .c2 {
+    background-color: #FF5688;
+    color: #fff;
+    left: 270px;
+}
+
+.cimg .c3 {
+    background-color: #FF8FAE;
+    color: #fff;
+    right: 270px;
+}
+
+.cimg .c4 {
+    background-color: #fff;
+    color: #333;
+    right: 0;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.cco {
+    padding-top: 115px;
+    font-size: 17px;
+}
+
+
+
+/* 오프라인 */
+
+.big .pp {
+    color: #FF5688;
+}
+
+.big {
+    font-size: 63px;
+    padding-top: 0;
+}
+
+.off {
+    padding-top: 30px;
+    width: 1320px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.offi {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.ofs1 {
+    background: url(./sub1_img/OFF1.png) no-repeat 5px 50%;
+    margin-bottom: 20px;
+}
+
+.ofs2 {
+    background: url(./sub1_img/OFF2.png) no-repeat 0 50%;
+}
+
+.ofs1,
+.ofs2 {
+    font-size: 24px;
+    padding-left: 40px;
+    line-height: 25px;
+}
+
+iframe {
+    width: 100%;
+    display: block;
+    height: 800px;
+    padding-top: 50px;
+
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: #F0F1F2;
+    width: 100%;
+    margin: auto;
+    color: #737373;
+    padding: 40px 0;
+}
+
+footer .ff {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1320px;
+    justify-content: space-around;
+    padding: 40px 0 0 0;
+    margin: auto;
+
+}
+
+
+footer .sns {
+    width: 1320px;
+    display: block;
+    margin: auto;
+    text-align: right;
+
+}
+
+footer .sns a {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+
+.sns a:hover .snsh {
+    opacity: 1;
+}
+
+.snsh {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+footer .ff .f p {
+    font-family: 'NanumSquare';
+    font-size: 14px;
+    line-height: 23px;
+    padding: 0;
+
+}
+
+footer .ff .f .number_silly {
+    font-size: 36px;
+    padding: 15px 0;
+    font-weight: bolder;
+}
+
+.top {
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+    display: none;
+    z-index: 99;
+  }

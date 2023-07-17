@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 슬라이드배너 꾸미기 */
+.gallery-center {
+	width: 100%;
+	height: 100%;
+	margin: 50px auto;
+	padding: 0 50px 40px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.gallery-center_inner {
+	width: 100%;
+	overflow: hidden;
+}
+
+.gallery-center .swiper-slide a {
+	width: 100%;
+	height: 100%;
+}
+
+.gallery-center .swiper-slide img {
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+
+.gallery-center .swiper-slide-active img{
+	width: 100%;
+}
+
+.gallery-center .swiper-wrapper{
+	align-items: center;
+}
+
+/* 이동버튼 이미지로 바꾸기 */
+.gallery-center .swiper-button-prev,
+.gallery-center .swiper-button-next{
+	width: 30px;
+	height: 50px;
+
+	top: calc(50% - 25px);
+}
+.gallery-center .swiper-button-prev:after,
+.gallery-center .swiper-button-next:after{
+	content: '';
+	display: block;
+	width: 30px;
+	height: 50px;
+}
+.gallery-center .swiper-button-prev:after{
+	background: url(../main_img/lbleft.png);
+}
+.gallery-center .swiper-button-next:after{
+	background: url(../main_img/lbright.png);
+}
