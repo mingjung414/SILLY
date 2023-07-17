@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'NanumSquare';
+  font-size: 14px;
+  line-height: 23px;
+  color: #333;
+  min-width: 1320px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+#top a {
+  font-family: 'NanumSquareRound';
+  width: 100%;
+  background-color: #FF5688;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  padding: 5px 0;
+  font-size: 15px;
+}
+
+#top img {
+  vertical-align: bottom;
+}
+
+
+.menu {
+  width: 1320px;
+  margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu #gnb {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+input {
+  width: 220px;
+  background: url(./main_img/search.png) no-repeat 5% 50%;
+  border-radius: 50px;
+  border: 2px solid #C5C5C5;
+  padding: 10px 0 10px 30px;
+  box-sizing: border-box;
+  outline: none;
+  color: #FF5688;
+}
+
+.COMMUNITY {
+  background: url(./sub5_img/comm.png) no-repeat center top;
+  margin: auto;
+  height: 810px;
+  position: relative;
+}
+
+h2 {
+  color: #fff;
+  font-size: 50px;
+  font-family: 'NanumSquare';
+  padding-top: 379px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'LotteriaChab';
+  font-size: 50px;
+  font-weight: 400;
+  color: #FF5688;
+  text-align: center;
+  padding-top: 150px;
+}
+
+h3 {
+  font-family: 'Jalnan';
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.NOTICE {
+  width: 1200px;
+  margin: auto;
+}
+
+.no {
+  width: 1200px;
+  text-align: center;
+  border-top: 2px solid #FF5688;
+  border-bottom: 2px solid #FF5688;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th {
+  border-bottom: #FF5688 2px solid;
+  color: #FF5688;
+
+}
+
+td {
+  border-bottom: #FF5688 solid 0.25px;
+}
+
+th,
+td {
+  padding: 10px 0;
+}
+
+tr:hover td {
+  background-color: #FFF1F5;
+}
+
+select {
+  border: #707070 1px solid;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.s {
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.nip {
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  padding: 10px 0 10px 15px;
+  box-sizing: border-box;
+  outline: none;
+  color: #FF5688;
+  background: none;
+}
+
+.btn {
+  color: #fff;
+  font-weight: 600;
+  padding: 7.5px 30px;
+  background-color: #FF5688;
+  display: inline-block;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+
+
+
+/* 공지 */
+
+/* 큐앤에이 */
+.QA {
+  width: 1200px;
+  margin: auto;
+
+}
+
+.qainput {
+  width: 1200px;
+  background: url(./sub5_img/qfa.png) no-repeat 5% 50%;
+  border-radius: 50px;
+  border: 2px solid #FF5688;
+  padding: 40px 0 40px 120px;
+  box-sizing: border-box;
+  outline: none;
+  color: #FF5688;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+h4 {
+  font-family: 'Jalnan';
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+#board {
+  width: 1200px;
+  margin-bottom: 150px;
+  border-top: 3px solid #FF5688;
+  border-bottom: 3px solid #FF5688;
+
+}
+
+#board li {
+  border-top: 1px solid #FF5688;
+  width: 100%;
+}
+#board li:nth-child(1) {
+  border-top: none;
+}
+
+#board .on li:first-child {
+  border-top: none;
+}
+
+#board .on {
+  border-bottom: 2px solid #FF5688;
+  border-top: 3px solid #FF5688;
+}
+
+#board .on:nth-child(1) {
+  border-top: none;
+}
+
+#board .on:nth-child(5) {
+  border-bottom: none;
+}
+
+
+
+#board li a {
+  display: block;
+  padding: 20px 30px;
+  background: url(./sub5_img/qnabtn.png) no-repeat 95% 50%;
+}
+
+
+
+.Qpink {
+  font-size: 25px;
+  color: #FF5688;
+  font-weight: 900;
+  padding-right: 10px;
+}
+
+#board li:hover a {
+  font-weight: bold;
+  background-color: #FFF1F5;
+}
+
+#board li.on a {
+  font-weight: bold;
+  background-color: #eee;
+  background: #FFF1F5 url(./sub5_img/qnabtnup.png) no-repeat 95% 50%;
+}
+
+
+#board li div {
+  width: 100%;
+  border-top: 0;
+  padding: 60px;
+  box-sizing: border-box;
+  height: 200px;
+  display: none;
+  background-color: #eee;
+}
+
+.memenu ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.alpink {
+  color: #FF5688;
+  font-weight: 700;
+}
+
+
+.memenu ul li:hover a {
+  color: #FF5688;
+}
+
+/* 큐엔에이 끝 */
+
+.review .h1rv {
+  padding-top: 150px;
+}
+
+.review {
+  background-color: #FFF1F5;
+  width: 100%;
+  text-align: center;
+}
+
+.rv {
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rv_i {
+  margin-bottom: 150px;
+}
+
+.rv_i img {
+  margin: auto;
+  display: block;
+}
+
+.review_text {
+  background-color: #fff;
+  border: 1px #C5C5C5 solid;
+  width: 395px;
+  border-top: none;
+  margin: 0;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+
+
+.review_text .t1 {
+  font-size: 15px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.review_text .t2 {
+  font-size: 12px;
+  text-align: start;
+  padding: 10px 0;
+
+}
+
+.review_text .t3,
+.review_text .t4 {
+  font-size: 10px;
+}
+
+.name {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* 리뷰호버 */
+
+.review .rv .rv_i {
+  position: relative;
+}
+
+.review .rv .rv_i:hover .rbox {
+  opacity: 1;
+}
+
+.rbox {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}
+
+.rbox a {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+}
+
+
+/* 리뷰끝 */
+
+/* footer */
+
+footer {
+  background-color: #F0F1F2;
+  width: 100%;
+  margin: auto;
+  color: #737373;
+  padding: 40px 0;
+}
+
+footer .ff {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1320px;
+  justify-content: space-around;
+  padding: 40px 0 0 0;
+  margin: auto;
+
+}
+
+footer .ff .number_silly {
+  font-size: 36px;
+  padding: 15px 0;
+  font-weight: bolder;
+}
+
+footer .sns {
+  width: 1320px;
+  display: block;
+  margin: auto;
+  text-align: right;
+
+}
+
+footer .sns a {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+
+.sns a:hover .snsh {
+  opacity: 1;
+}
+
+.snsh {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.top {
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  display: none;
+  z-index: 99;
+}

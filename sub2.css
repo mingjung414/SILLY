@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'NanumSquare';
+  font-size: 14px;
+  line-height: 23px;
+  color: #333;
+  min-width: 1320px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+#top a {
+  font-family: 'NanumSquareRound';
+  width: 100%;
+  background-color: #FF5688;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  padding: 5px 0;
+  font-size: 15px;
+}
+
+#top img {
+  vertical-align: bottom;
+}
+
+
+.menu {
+  width: 1320px;
+  margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu #gnb {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+input {
+  width: 220px;
+  background: url(./main_img/search.png) no-repeat 5% 50%;
+  border-radius: 50px;
+  border: 2px solid #C5C5C5;
+  padding: 10px 0 10px 30px;
+  box-sizing: border-box;
+  outline: none;
+  color: #FF5688;
+}
+
+
+/* 베스트 */
+
+.best {
+  width: 100%;
+  background-color: #FFF1F5;
+  padding-bottom: 150px;
+}
+
+.besti .swiper-container gallery img {
+  width: 100%;
+  display: block;
+}
+
+
+lb .lbi .swiper-slide {
+  position: relative;
+}
+
+.lb .lbi .lbbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.lb .lbi .lbbox img {
+  opacity: 0;
+}
+
+.lb .lbi .swiper-slide:hover img {
+  opacity: 1;
+  transform: rotateY(180deg);
+  transition: all 0.8s;
+}
+
+h1 {
+  font-family: 'LotteriaChab';
+  font-size: 50px;
+  font-weight: 400;
+  color: #FF5688;
+  text-align: center;
+  padding: 150px 0;
+}
+
+h5 {
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+
+.best .swiper-slide:hover h5 {
+  color: #FF8FAE;
+}
+
+h6 {
+  font-size: 18px;
+  color: #FF5688;
+  padding-top: 5px;
+}
+
+.menu .stp a {
+  color: #FF5688;
+}
+
+.yellow {
+  background-color: #FFEA95;
+  display: inline-block;
+  padding: 0 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  color: #333;
+}
+
+.bestpink {
+  background-color: #FF5688;
+  color: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.LBBLUE {
+  background-color: #81C0FF;
+  color: #333;
+  display: inline-block;
+  padding: 0 10px;
+  border-radius: 15px;
+  font-size: 12px;
+
+}
+
+/* 호버 */
+.best .besti .swiper-slide {
+  position: relative;
+}
+
+.best .besti .swiper-slide .lbbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.best .besti .lbbox img {
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.best .besti .swiper-slide:hover img {
+  opacity: 1;
+
+}
+
+
+/* 호버끝 */
+
+/* 상품 */
+.AL {
+  width: 1320px;
+  margin: auto;
+  padding-bottom: 80px;
+  padding-top: 150px;
+}
+
+.AL ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: left;
+}
+
+.AL ul li a {
+  font-family: 'Jalnan';
+  font-size: 25px;
+  color: #FF8FAE;
+  padding-right: 100px;
+}
+
+.AL ul li a:hover {
+  color: #FF5688;
+
+}
+
+.AL ul li .pt {
+  color: #FF5688;
+}
+
+
+/* box */
+.box {
+  width: 1320px;
+  margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* 상품 호버시 */
+
+.boxi {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.boxi .boxih {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.boxih img {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.boxi:hover .boxih img {
+  opacity: 1;
+
+}
+
+.boxi:hover h5{
+  color: #FF8FAE;
+}
+
+.number {
+  color: #FF5688;
+  margin: auto;
+  font-weight: 900;
+}
+
+
+
+/* footer */
+
+footer {
+  background-color: #F0F1F2;
+  width: 100%;
+  margin: auto;
+  color: #737373;
+  padding: 40px 0;
+  margin-top: 150px;
+}
+
+footer .ff {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1320px;
+  justify-content: space-around;
+  padding: 40px 0 0 0;
+  margin: auto;
+
+}
+
+footer .ff .number_silly {
+  font-size: 36px;
+  padding: 15px 0;
+  font-weight: bolder;
+}
+
+footer .sns {
+  width: 1320px;
+  display: block;
+  margin: auto;
+  text-align: right;
+
+}
+
+footer .sns a {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+
+.sns a:hover .snsh {
+  opacity: 1;
+}
+
+.snsh {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.top {
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  display: none;
+  z-index: 99;
+}
